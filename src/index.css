@@ -19,7 +19,7 @@
   padding: 0;
   outline: none;
   box-sizing: border-box;
-  font-family: "iranyekanwebregular", sans-serif;
+  font-family: "iranyekanwebregular", sans-serif !important;
 
 }
 body {
@@ -27,4 +27,19 @@ body {
   font-family: "iranyekanwebregular", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.react-ios-time-picker-container {
+  background-color: #fdfdfd !important;
+}
+.react-ios-time-picker-btn-container {
+  background-color: #fff !important;
+}
+.react-ios-time-picker-selected-overlay{
+  background-color: #fff !important;
+}
+.react-ios-time-picker-cell-inner-selected{
+  color: red !important;
+}
+.react-ios-time-picker-colon{
+  color: #6a6a6b !important;
 }

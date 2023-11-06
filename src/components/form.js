@@ -93,7 +93,12 @@ const Form = () => {
         minDate={new DateObject({ calendar: persian }).set("day", minDate.day)}
       />
       <hr/>
-      <TimePicker onChange={handleClock} value={time} />
+      <TimePicker
+        onChange={handleClock}
+        value={time}
+        cancelButtonText='انصراف'
+        saveButtonText='ذخیره'
+      />
       <button type="submit">ارسال</button>
     </form>
     </>
